@@ -1,7 +1,7 @@
 /*
  * ============================================================
  * DESIGN: Contemporary Legal Craft
- * 山田・鈴木法律事務所 Landing Page
+ * サン・プル法律事務所 Landing Page
  * Colors: Navy (#0f1f3d) × Champagne Gold (#b8965a) × Cream (#fdf9f3)
  * Fonts: Cormorant Garamond (display) + Noto Serif JP (heading) + Noto Sans JP (body)
  * Layout: Asymmetric, zigzag sections, left-right alternating
@@ -133,10 +133,10 @@ function Navbar() {
         {/* Logo */}
         <a href="#" className="flex flex-col leading-tight">
           <span className="font-display text-[#b8965a] text-xl font-semibold tracking-wider">
-            YAMADA & SUZUKI
+            SAN & PLE
           </span>
           <span className="font-serif-jp text-white text-xs tracking-[0.3em] font-light">
-            山田・鈴木法律事務所
+            サン・プル法律事務所
           </span>
         </a>
 
@@ -505,8 +505,8 @@ function ServicesSection() {
 function AttorneysSection() {
   const attorneys = [
     {
-      name: "山田 健一郎",
-      nameEn: "Kenichiro Yamada",
+      name: "サン 健一郎",
+      nameEn: "Kenichiro San",
       title: "代表弁護士 / 所長",
       bar: "東京弁護士会",
       year: "1998年登録",
@@ -516,8 +516,8 @@ function AttorneysSection() {
       bio: "企業法務を専門とし、国内外のM&Aや大型契約交渉を数多く手がける。上場企業の社外取締役も務める。",
     },
     {
-      name: "鈴木 美咲",
-      nameEn: "Misaki Suzuki",
+      name: "プル 美咲",
+      nameEn: "Misaki Puru",
       title: "パートナー弁護士",
       bar: "東京弁護士会",
       year: "2003年登録",
@@ -527,8 +527,8 @@ function AttorneysSection() {
       bio: "離婚・相続・労働問題を専門とし、依頼者に寄り添った丁寧な対応で高い評価を得ている。",
     },
     {
-      name: "田中 誠司",
-      nameEn: "Seiji Tanaka",
+      name: "サンプル 誠司",
+      nameEn: "Seiji Sample",
       title: "アソシエイト弁護士",
       bar: "東京弁護士会",
       year: "2012年登録",
@@ -703,17 +703,17 @@ function ResultsSection() {
 function TestimonialsSection() {
   const testimonials = [
     {
-      text: "離婚問題で途方に暮れていた時に相談しました。鈴木先生は私の話を丁寧に聞いてくださり、複雑な財産分与の問題も納得のいく形で解決していただきました。",
+      text: "離婚問題で途方に暮れていた時に相談しました。プル先生は私の話を丁寧に聞いてくださり、複雑な財産分与の問題も納得のいく形で解決していただきました。",
       name: "T.M. 様",
       detail: "40代 / 離婚・財産分与",
     },
     {
-      text: "会社設立から契約書の整備まで、山田先生には創業期から一貫してサポートいただいています。法律の専門家がいてくれる安心感は何物にも代えがたいです。",
+      text: "会社設立から契約書の整備まで、サン先生には創業期から一貫してサポートいただいています。法律の専門家がいてくれる安心感は何物にも代えがたいです。",
       name: "K.S. 様",
       detail: "50代 / 企業法務",
     },
     {
-      text: "突然の逮捕で家族が混乱する中、田中先生が迅速に対応してくださいました。不起訴という結果に、家族全員で先生に感謝しています。",
+      text: "突然の逮捕で家族が混乱する中、サンプル先生が迅速に対応してくださいました。不起訴という結果に、家族全員で先生に感謝しています。",
       name: "A.N. 様",
       detail: "30代 / 刑事弁護",
     },
@@ -903,7 +903,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <div className="font-sans-jp text-[#b8965a] text-xs tracking-wider mb-1">電話番号</div>
-                  <div className="font-display text-[#0f1f3d] text-xl font-semibold">03-1234-5678</div>
+                  <div className="font-display text-[#0f1f3d] text-xl font-semibold">03-1234-〇〇〇〇</div>
                   <div className="font-sans-jp text-gray-400 text-xs mt-1">平日 9:00〜18:00 / 緊急は24時間対応</div>
                 </div>
               </div>
@@ -913,7 +913,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <div className="font-sans-jp text-[#b8965a] text-xs tracking-wider mb-1">メールアドレス</div>
-                  <div className="font-sans-jp text-[#0f1f3d] text-sm">info@yamada-suzuki-law.jp</div>
+                  <div className="font-sans-jp text-[#0f1f3d] text-sm">〇〇〇〇@sun-ple-law.jp</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -923,7 +923,7 @@ function ContactSection() {
                 <div>
                   <div className="font-sans-jp text-[#b8965a] text-xs tracking-wider mb-1">所在地</div>
                   <div className="font-sans-jp text-[#0f1f3d] text-sm">〒100-0001</div>
-                  <div className="font-sans-jp text-gray-600 text-sm">東京都千代田区千代田1-1-1</div>
+                  <div className="font-sans-jp text-gray-600 text-sm">東京都千代田区</div>
                   <div className="font-sans-jp text-gray-500 text-xs mt-1">大手町ビル 15F</div>
                 </div>
               </div>
@@ -1104,13 +1104,13 @@ function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="font-display text-[#b8965a] text-lg font-semibold tracking-wider mb-1">
-              YAMADA & SUZUKI
+              SAN & PLE
             </div>
             <div className="font-serif-jp text-white/80 text-xs tracking-[0.3em] mb-4">
-              山田・鈴木法律事務所
+              サン・プル法律事務所
             </div>
             <p className="font-sans-jp text-white/40 text-xs leading-relaxed max-w-xs">
-              1998年創業。東京都千代田区を拠点に、企業法務から個人の法律問題まで幅広く対応する総合法律事務所です。
+  創業以来、東京都千代田区を拠点に、企業法務から個人の法律問題まで幅広く対応する総合法律事務所です。
             </p>
           </div>
           {/* Links */}
@@ -1149,7 +1149,7 @@ function Footer() {
         <div className="h-px bg-white/5 mb-6" />
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-sans-jp text-white/30 text-xs">
-            © 2024 山田・鈴木法律事務所. All rights reserved.
+            © 2024 サン・プル法律事務所. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["プライバシーポリシー", "利用規約", "弁護士費用"].map((item) => (
