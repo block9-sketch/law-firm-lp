@@ -19,10 +19,12 @@ jobs:
           node-version: 20
       - run: npm install --legacy-peer-deps
       - run: npx vite build --base /law-firm-lp/
+      # 修正：dist/public ではなく dist 直下の index.html をコピー
       - run: cp dist/index.html dist/404.html
   
       - uses: actions/upload-pages-artifact@v3
         with:
+          # 修正：アップロード対象を dist に指定
           path: dist
 
   deploy:
